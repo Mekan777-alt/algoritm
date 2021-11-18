@@ -12,7 +12,7 @@ c = float(input('c = '))
 if a + b >= c or a + c >= b or c + b >= a:
     if a == c or a == b or c == a:
         if a == c and a == b:
-            print("Равностороний треугольник")
+            print('Равностороний треугольник')
         else:
             print("Равнобедренный треугольник")
     else:

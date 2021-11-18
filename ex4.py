@@ -19,7 +19,7 @@ while True:
 
     if users == 1:
         a = int(input("Введите границу x1: "))
-        b = int(input("Введите границу x2: "))
+        b = int(input('Введите границу x2: '))
         res = random.randint(a, b)
         print(f"Результат = {res}")
     elif users == 2:
